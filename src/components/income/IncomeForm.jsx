@@ -24,7 +24,7 @@ function IncomeForm() {
       ]
     }
 
-    const response = await fetch("http://localhost:8080/api/income/summary", {
+    const response = await fetch("https://wealthos-production.up.railway.app/api/income/summary", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
